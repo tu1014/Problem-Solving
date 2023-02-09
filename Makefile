@@ -4,7 +4,7 @@ INC_DIRS = -I softeer
 
 all: build/a.out
 
-run:
+run: build/a.out
 	build/a.out
 
 build/a.out: main.cpp
